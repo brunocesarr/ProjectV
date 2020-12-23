@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="QR_Tecnicos" size="200.000000 200.000000" />
+    <ImageTarget name="QR_TheBug" size="200.000000 200.000000" />
+    <ImageTarget name="QR_Secretaria" size="200.000000 200.000000" />
+    <ImageTarget name="QR_NextStep" size="200.000000 200.000000" />
+    <ImageTarget name="QR_MariaLucia" size="200.000000 200.000000" />
+    <ImageTarget name="QR_MarceloFerreira" size="200.000000 200.000000" />
+    <ImageTarget name="QR_LeonardoLana" size="200.000000 200.000000" />
+    <ImageTarget name="QR_Grupo_LaPIES" size="200.000000 200.000000" />
+    <ImageTarget name="QR_Grupo_LabLIC" size="200.000000 200.000000" />
+    <ImageTarget name="QR_Grupo_GesTI" size="200.000000 200.000000" />
+    <ImageTarget name="QR_GeruzaTome" size="200.000000 200.000000" />
+    <ImageTarget name="QR_GeorgeHenrique" size="200.000000 200.000000" />
+    <ImageTarget name="QR_ErinaldoBarbosa" size="200.000000 200.000000" />
+    <ImageTarget name="QR_EduardoPelli" size="200.000000 200.000000" />
+    <ImageTarget name="QR_ClaudiaBerti" size="200.000000 200.000000" />
+    <ImageTarget name="QR_CinthyaRocha" size="200.000000 200.000000" />
+    <ImageTarget name="QR_CarolineQueiroz" size="200.000000 200.000000" />
+    <ImageTarget name="QR_AthilaRocha" size="200.000000 200.000000" />
+    <ImageTarget name="QR_AndreCovre" size="200.000000 200.000000" />
+    <ImageTarget name="QR_ChatbotSistemas_A2_1" size="200.000000 200.000000" />
+    <ImageTarget name="QR_ChatbotSistemas_A1_1" size="200.000000 200.000000" />
+    <ImageTarget name="QR_GrupoOIA" size="200.000000 200.000000" />
+    <ImageTarget name="QR_GrupoMTPLNAM" size="200.000000 200.000000" />
+    <ImageTarget name="QR_GrupoOSI" size="200.000000 200.000000" />
+    <ImageTarget name="QR_PredioSistemas" size="200.000000 200.000000" />
+    <ImageTarget name="QR_SalaLucianaAssis" size="200.000000 200.000000" />
+    <ImageTarget name="QR_SalaAlessandroVivas" size="200.000000 200.000000" />
+    <ImageTarget name="QR_SalaRafaelSantin" size="200.000000 200.000000" />
+  </Tracking>
+</QCARConfig>

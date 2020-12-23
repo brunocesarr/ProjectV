@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9c12d56091abede4f80a450fe48a6fbc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Landasans
+  fontNames:
+  - Landasans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e16352be046e0d84ba561509692f3511, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
