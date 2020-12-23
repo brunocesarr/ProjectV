@@ -1,0 +1,2513 @@
+{
+  "intents": [
+    {
+      "intent": "Atletic_Curse",
+      "examples": [
+        {
+          "text": "E a atlética?"
+        },
+        {
+          "text": "Existe atlética?"
+        },
+        {
+          "text": "O curso tem atlética?"
+        },
+        {
+          "text": "Qual a atlética do curso?"
+        },
+        {
+          "text": "Quem é a atlética do curso?"
+        }
+      ],
+      "description": "Sobre a atlética do curso"
+    },
+    {
+      "intent": "CompanyJr_Curse",
+      "examples": [
+        {
+          "text": "E a empresa jr?"
+        },
+        {
+          "text": "Existe alguma empresa Jr?"
+        },
+        {
+          "text": "Existem empresa jr no curso?"
+        },
+        {
+          "text": "Qual a empresa junior do curso?"
+        },
+        {
+          "text": "Qual é a empresa jr?"
+        }
+      ],
+      "description": "Sobre a empresa jr do curso."
+    },
+    {
+      "intent": "Contact_Curse",
+      "examples": [
+        {
+          "text": "Como entro em contato?"
+        },
+        {
+          "text": "Como posso entrar em contato?"
+        },
+        {
+          "text": "Quais contatos do curso?"
+        },
+        {
+          "text": "Qual o contato?"
+        },
+        {
+          "text": "Qual o contato do curso?"
+        },
+        {
+          "text": "Qual o email?"
+        },
+        {
+          "text": "Tem algum contato?"
+        }
+      ],
+      "description": "Descrição sobre contato com o curso."
+    },
+    {
+      "intent": "Curse",
+      "examples": [
+        {
+          "text": "Conte me sobre o curso"
+        },
+        {
+          "text": "Conte me sobre o curso?"
+        },
+        {
+          "text": "Eu quero saber sobre o curso"
+        },
+        {
+          "text": "Me diga mais sobre o curso?"
+        },
+        {
+          "text": "O curso é mais voltado para o quê?"
+        },
+        {
+          "text": "Onde fica o curso?"
+        },
+        {
+          "text": "O que é o curso?"
+        },
+        {
+          "text": "O que vou ver no curso?"
+        },
+        {
+          "text": "Preciso estudar algo para entrar no curso?"
+        },
+        {
+          "text": "Quais os pré-requisitos?"
+        },
+        {
+          "text": "Qual a localidade do curso?"
+        },
+        {
+          "text": "Qual o perfil do curso?"
+        }
+      ],
+      "description": "Descrição do curso"
+    },
+    {
+      "intent": "Discipline_Curse",
+      "examples": [
+        {
+          "text": "Disciplinas"
+        },
+        {
+          "text": "Matérias"
+        },
+        {
+          "text": "Quais a disciplinas?"
+        },
+        {
+          "text": "Quais as matérias?"
+        },
+        {
+          "text": "Qual a grade do curso?"
+        },
+        {
+          "text": "Quero saber sober as matérias?"
+        }
+      ],
+      "description": "Descrição das disciplinas do curso"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Bjus"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Txhau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Eae"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "não desculpo"
+        },
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Você não vale nada."
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        },
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Obrigado!"
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "Dicas"
+        },
+        {
+          "text": "Estou perdido"
+        },
+        {
+          "text": "Eu quero sugestões"
+        },
+        {
+          "text": "Eu quero ver opções"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Quais a sugestões"
+        },
+        {
+          "text": "Socorro"
+        },
+        {
+          "text": "Sugestões"
+        },
+        {
+          "text": "Tem alguma sugestão"
+        },
+        {
+          "text": "Tem opções?"
+        }
+      ],
+      "description": "Fornece sugestões de pesquisa ao usuário."
+    },
+    {
+      "intent": "Help_About",
+      "examples": [
+        {
+          "text": "Me explica?"
+        },
+        {
+          "text": "O que é?"
+        },
+        {
+          "text": "O que faz?"
+        },
+        {
+          "text": "Qual o significado?"
+        },
+        {
+          "text": "Quem é?"
+        }
+      ],
+      "description": "Ajuda sobre determinado assunto"
+    },
+    {
+      "intent": "Help_Route",
+      "examples": [
+        {
+          "text": "Como chegar?"
+        },
+        {
+          "text": "Como chego?"
+        },
+        {
+          "text": "Como vou até a sala do professor?"
+        },
+        {
+          "text": "Desejo achar alguém"
+        },
+        {
+          "text": "Estou buscando..."
+        },
+        {
+          "text": "Estou procurando..."
+        },
+        {
+          "text": "Onde fica?"
+        },
+        {
+          "text": "Onde fica o laboratório?"
+        },
+        {
+          "text": "Qual o caminho da sala do professor?"
+        },
+        {
+          "text": "Rotas"
+        },
+        {
+          "text": "Rotas do prédio"
+        },
+        {
+          "text": "Rotas no prédio"
+        },
+        {
+          "text": "Sala"
+        }
+      ],
+      "description": "Dúvidas sobre rotas"
+    },
+    {
+      "intent": "History_Curse",
+      "examples": [
+        {
+          "text": "Como surgiu o curso?"
+        },
+        {
+          "text": "história"
+        },
+        {
+          "text": "Qual a história do curso?"
+        },
+        {
+          "text": "Qual a idade do curso?"
+        },
+        {
+          "text": "Qual sua história?"
+        },
+        {
+          "text": "Quantos anos tem o curso?"
+        }
+      ],
+      "description": "Descrição sobre o curso e sua história."
+    },
+    {
+      "intent": "Negative",
+      "examples": [
+        {
+          "text": "Não"
+        },
+        {
+          "text": "Não desculpo"
+        },
+        {
+          "text": "Não, obrigado!"
+        },
+        {
+          "text": "Não quero!"
+        },
+        {
+          "text": "Nem"
+        },
+        {
+          "text": "Talvez depois!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Teacher_Course",
+      "examples": [
+        {
+          "text": "Encontrar professor"
+        },
+        {
+          "text": "E os docentes?"
+        },
+        {
+          "text": "Quais professores tem no curso?"
+        },
+        {
+          "text": "Quais são os professores?"
+        },
+        {
+          "text": "Quem são os docentes?"
+        },
+        {
+          "text": "Quem são os professores?"
+        }
+      ],
+      "description": "Perguntas relacionadas à quais são os professores do curso"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "anotherPlace",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Auditório",
+          "synonyms": [
+            "Auditório"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Next Step",
+          "synonyms": [
+            "Next Step",
+            "Sala da Empresa Jr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sala 37",
+          "synonyms": [
+            "Sala 37"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Secretária",
+          "synonyms": [
+            "Sala da Secretária",
+            "Sala do Evandro",
+            "Secretária"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Técnicos",
+          "synonyms": [
+            "Sala do Alan",
+            "Sala do Oscar",
+            "Sala do Oscar e Alan",
+            "Sala dos Técnicos",
+            "Técnicos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Bug",
+          "synonyms": [
+            "Sala da Atlética",
+            "The Bug"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "laboratory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Laboratorio 31",
+          "synonyms": [
+            "Lab 31",
+            "Laboratório 31"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laboratório 32",
+          "synonyms": [
+            "Lab 32",
+            "Laboratório 32"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laboratório 33",
+          "synonyms": [
+            "Lab 33",
+            "Laboratório 33"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laboratório 34",
+          "synonyms": [
+            "Lab 34",
+            "Laboratório 34"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laboratório 35",
+          "synonyms": [
+            "Lab 35",
+            "Laboratório 35"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laboratório 36",
+          "synonyms": [
+            "Lab 36",
+            "Laboratório 36"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "researchGroup",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "GesTI",
+          "synonyms": [
+            "GesTI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LabLIC",
+          "synonyms": [
+            "LabLIC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LaPIES",
+          "synonyms": [
+            "LaPIES"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MTPLNAM",
+          "synonyms": [
+            "MTPLNAM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OIA",
+          "synonyms": [
+            "OIA"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "teacher",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alessandro Vivas de Andrade",
+          "synonyms": [
+            "Alessandro",
+            "Alessandro Vivas",
+            "Alessandro Vivas de Andrade",
+            "Professor Vivas",
+            "Vivas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "André Covre",
+          "synonyms": [
+            "André",
+            "André Covre",
+            "Covre",
+            "Professor André",
+            "Professor Covre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Áthila Rocha Trindade",
+          "synonyms": [
+            "Áthila",
+            "Áthila Rocha Trindade",
+            "Professor Áthila"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Caroline Queiroz Santos",
+          "synonyms": [
+            "Carol",
+            "Caroline",
+            "Caroline Queiroz Santos",
+            "Professora Carol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cinthya Rocha Tameirão",
+          "synonyms": [
+            "Cinthya",
+            "Cinthya Rocha Tameirão",
+            "Professora Cinthya"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Claudia Beatriz Berti",
+          "synonyms": [
+            "Claudia",
+            "Claudia Beatriz Berti",
+            "Claudia Berti",
+            "Professora Claudia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eduardo Pelli",
+          "synonyms": [
+            "Eduardo Pelli",
+            "Pelli",
+            "Professor Pelli"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Erinaldo Barbosa da Silva",
+          "synonyms": [
+            "Erinaldo",
+            "Erinaldo Barbosa da Silva",
+            "Professor Erinaldo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "George Henrique M. Rodolfo",
+          "synonyms": [
+            "George",
+            "George Henrique M. Rodolfo",
+            "Professor George"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Geruza de Fátima Tomé Sabino",
+          "synonyms": [
+            "Geruza",
+            "Geruza de Fátima Tomé Sabino",
+            "Professora Geruza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Leonardo Lana de Carvalho",
+          "synonyms": [
+            "Lana",
+            "Leonardo",
+            "Leonardo Lana de Carvalho",
+            "Professor Lana",
+            "Professor Leo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luciana Pereira de Assis",
+          "synonyms": [
+            "Luciana",
+            "Luciana Assis",
+            "Luciana Pereira",
+            "Professora Luciana",
+            "Tia Lu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marcelo Ferreira Rego",
+          "synonyms": [
+            "Marcelo",
+            "Marcelo Ferreira Rego",
+            "Professor Marcelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria Lúcia Bento Villela",
+          "synonyms": [
+            "Maria Lúcia",
+            "Maria Lúcia Bento Villela",
+            "Professora Maria Lucia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rafael Santin",
+          "synonyms": [
+            "Professor Santin",
+            "Rafael",
+            "Rafael Santin",
+            "Santin"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589854687730"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1589810400260",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Qual seu nome?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu ainda não sei o seu nome. Que tal começarmos por ele?"
+              },
+              {
+                "text": "Desculpe, mas ainda não sei seu nome. Vamos iniciar por ele?"
+              },
+              {
+                "text": "Nossa, não sei o seu nome. Me conte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1589854687730",
+      "previous_sibling": "node_9_1589987328691"
+    },
+    {
+      "type": "standard",
+      "title": "Captura username",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1589854687730",
+      "context": {
+        "username": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1589860213945"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1589865715810"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback Negativo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh! Me desculpe! "
+              },
+              {
+                "text": "Desculpas!"
+              },
+              {
+                "text": "Sinto muito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_1_1590015597314",
+      "previous_sibling": "node_6_1590015511950"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_6_1590863427138",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@researchGroup",
+      "dialog_node": "node_1_1601689341555",
+      "previous_sibling": "node_3_1590868158233"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1590863427138",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@teacher",
+      "dialog_node": "node_3_1590868158233",
+      "previous_sibling": "node_9_1590864303288"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_9_1601691418965",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@researchGroup",
+      "dialog_node": "node_33_1601691418977"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar Conversa",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_4_1589810400260",
+      "previous_sibling": "node_1_1590015597314"
+    },
+    {
+      "type": "standard",
+      "title": "Username não capturado.",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh! Parece que você não escreveu nada. Digite seu nome, por favor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589854687730",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1589865715810"
+      },
+      "conditions": "!$username",
+      "dialog_node": "node_4_1589860213945",
+      "previous_sibling": "node_1_1589865715810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja procurar por?"
+              },
+              {
+                "text": "O que deseja achar?"
+              },
+              {
+                "text": "Me diga o que procura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1590863427138",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1590864303288"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1590869239325",
+      "previous_sibling": "node_5_1601689347931"
+    },
+    {
+      "type": "standard",
+      "title": "Contatos do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O curso de sistemas de informação possui os seguintes canais de comunicação, caso deseje entrar em contato:"
+              },
+              {
+                "text": "Coordenação:\nCoordenador: Caroline Queiroz Santos\nE-mail:  caroline.queiroz@ufvjm.edu.br\nVice coordenador: Marcelo Ferreira Rego\nE-mail:  marcelofr@gmail.com"
+              },
+              {
+                "text": "Secretaria:\nSecretário: Evandro das Mercês Amorim\nE-mail: secretariasiufvjm@gmail.com\nPrédio Departamento de Computação -  Sala 26 Secretaria do curso Sistemas de Informação\nTelefone: (38) 3532-1223"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Contact_Curse",
+      "dialog_node": "node_4_1590964031491",
+      "previous_sibling": "node_8_1590941553673"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja procurar por?"
+              },
+              {
+                "text": "O que deseja achar?"
+              },
+              {
+                "text": "Me diga o que procura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1601691418965",
+      "conditions": "true",
+      "dialog_node": "node_46_1601691418977",
+      "previous_sibling": "node_33_1601691418977"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_6_1590863427138",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@anotherPlace",
+      "dialog_node": "node_5_1601689347931",
+      "previous_sibling": "node_1_1601689341555"
+    },
+    {
+      "type": "standard",
+      "title": "Docentes do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os professores do curso são:"
+              },
+              {
+                "text": "Alessandro Vivas de Andrade,\nAndré Covre,\nÁthila Rocha Trindade,\nCaroline Queiroz Santos,\nCinthya Rocha Tameirão,\nClaudia Beatriz Berti,\nEduardo Pelli,\nErinaldo Barbosa da Silva,\nGeorge Henrique M. Rodolfo,\nGeruza de Fátima Tomé Sabino,\nLeonardo Lana de Carvalho,\nLuciana Pereira de Assis,\nMarcelo Ferreira Rego,\nMaria Lúcia Bento Villela,\nRafael Santin"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Teacher_Course",
+      "dialog_node": "node_6_1589866832290",
+      "previous_sibling": "node_6_1590940908385"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback Positivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que gostou!"
+              },
+              {
+                "text": "Estou feliz que gostou!"
+              },
+              {
+                "text": "Fico contente!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_6_1590015511950",
+      "previous_sibling": "node_8_1590938752570"
+    },
+    {
+      "type": "standard",
+      "title": "História do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Com 14 anos, o curso de Sistemas de Informação da Universidade Federal dos Vales do Jequitinhonha e Mucuri, iniciado em 2006, funciona em Diamantina - Minas Gerais, propiciando formação sólida em Ciência da Computação, básica em Administração e abrangente em Sistemas de Informação, enfatizando aspectos teóricos e práticos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#History_Curse",
+      "dialog_node": "node_6_1590015980128",
+      "previous_sibling": "node_4_1590964031491"
+    },
+    {
+      "type": "standard",
+      "title": "Help Route",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Iremos te ajudar!"
+              },
+              {
+                "text": "Vamos te ajudar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Help_Route",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1590863427138",
+      "previous_sibling": "node_9_1601691418965"
+    },
+    {
+      "type": "standard",
+      "title": "Disciplinas do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A grade de disciplinas do curso possui:"
+              },
+              {
+                "text": "FUNDAMENTOS DE MATEMÁTICA,\nFUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO,\nINGLÊS INSTRUMENTAL,\nINTRODUÇÃO À LOGICA COMPUTACIONAL,\nLEITURA E PRODUÇÃO DE TEXTOS,\nALGORITMOS E ESTRUTURA DE DADOS I,\nCÁLCULO DIFERENCIAL E INTEGRAL I,\nMATEMÁTICA DISCRETA,\nMETODOLOGIA DO TRABALHO E DA PESQUISA CIENTÍFICA E TECNOLÓGICA,\nSISTEMAS DE COMPUTAÇÃO,\nTEORIA GERAL DOS SISTEMAS,\nADMINISTRAÇÃO I,\nALGORITMOS E ESTRUTURA DE DADOS II,\nFUNDAMENTOS DE ECONOMIA,\nGEOMETRIA ANALÍTICA E ÁLGEBRA LINEAR,\nORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES,\nTEORIA DA COMPUTAÇÃO,\nADMINISTRAÇÃO II,\nALGORITMOS E ESTRUTURA DE DADOS III,\nDIREITO LEGISLAÇÃO EM INFORMÁTICA,\nESTATÍSTICA,\nFUNDAMENTOS DE CONTABILIDADE,\nSISTEMAS OPERACIONAIS,\nBANCO DE DADOS I,\nGESTÃO DE SISTEMAS DE INFORMAÇÃO,\nLINGUAGENS DE PROGRAMAÇÃO,\nPESQUISA OPERACIONAL,\nPROGRAMAÇÃO ORIENTADA A OBJETOS,\nSISTEMAS DE APOIO À DECISÃO,\nBANCO DE DADOS II,\nENGENHARIA DE SOFTWARE I,\nENGENHARIA WEB,\nINFORMÁTICA E SOCIEDADE,\nINTELIGÊNCIA ARTIFICIAL,\nREDES DE COMPUTADORES I,\nCOMPORTAMENTO ORGANIZACIONAL,\nENGENHARIA DE SOFTWARE II,\nESTÁGIO CURRICULAR SUPERVISIONADO,\nINTERFACE HOMEM MÁQUINA,\nREDES DE COMPUTADORES II,\nTÓPICOS ESPECIAIS EM SISTEMAS DE INFORMAÇÃO I,\nTRABALHO COOPERATIVO APOIADO POR COMPUTADOR,\nEMPREENDEDORISMO,\nGERÊNCIA DE PROJETOS DE SOFTWARE,\nPROJETO ORIENTADO I (TCC),\nSEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO,\nSISTEMAS DISTRIBUÍDOS,\nTÓPICOS ESPECIAIS EM SISTEMAS DE INFORMAÇÃO II\t\n\t"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Discipline_Curse",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1590940908385",
+      "previous_sibling": "node_9_1590016493766"
+    },
+    {
+      "type": "standard",
+      "title": "Sugestões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se sente perdido?! Que tal essas sugestões:"
+              },
+              {
+                "text": "Não se preocupe, temos algumas sugestões:"
+              },
+              {
+                "text": "Estou aqui para ajudar! Se você quiser temos algumas sugestões:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Historia",
+                "value": {
+                  "input": {
+                    "text": "Qual a história?"
+                  }
+                }
+              },
+              {
+                "label": "Atlética",
+                "value": {
+                  "input": {
+                    "text": "Qual a atlética?"
+                  }
+                }
+              },
+              {
+                "label": "Empresa Jr",
+                "value": {
+                  "input": {
+                    "text": "Qual a empresa jr?"
+                  }
+                }
+              },
+              {
+                "label": "Encontrar sala ou professor",
+                "value": {
+                  "input": {
+                    "text": "Estou procurando..."
+                  }
+                }
+              },
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Help",
+      "dialog_node": "node_7_1589863425360",
+      "previous_sibling": "node_10_1589854687730"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1590863427138"
+      },
+      "conditions": "@laboratory || @teacher",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1590938752570",
+      "previous_sibling": "node_6_1590863427138"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre o Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma dúvida frequente para quem está ingressando no curso é se há necessidade de algum pré-requisito? A resposta é não, uma vez que o objetivo é a formação de profissionais aptos a atuarem nas mais diversas organizações, realizando avaliação, pesquisa, desenvolvimento, gestão e utilização de modernas tecnologias de informação aplicadas às áreas administrativas e industriais."
+              },
+              {
+                "text": "O egresso do curso de Sistemas de Informação da UFVJM deverá ser um profissional que possui um domínio das tecnologias de informação, acompanhando sua evolução de forma autônoma e independente. Esse profissional assumirá um papel de agente transformador do mercado, sendo capaz de provocar mudanças através da incorporação de novas tecnologias na solução dos problemas organizacionais."
+              },
+              {
+                "text": "Contudo, o profissional de Sistemas de Informação poderá atuar no mercado de trabalho em empresas de todos os portes, públicas ou privadas, em todos os segmentos de negócios, e estará apto a executar atividades de análise, projeto, desenvolvimento e manutenção de sistemas de informação; projeto e gerência de banco de dados; planejamento, implantação e gerência de ambientes de rede; projeto de sistemas de hardware; consultoria, auditoria e gestão de sistemas de informação; planejamento e implantação de infra-estrutura de tecnologia de informação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Curse",
+      "dialog_node": "node_8_1590941553673",
+      "previous_sibling": "node_7_1589863425360"
+    },
+    {
+      "type": "standard",
+      "title": "Username capturado.",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito prazer, $username. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589854687730",
+      "conditions": "$username",
+      "dialog_node": "node_9_1589860014139",
+      "previous_sibling": "node_4_1589860213945"
+    },
+    {
+      "type": "standard",
+      "title": "Oi",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1589987328691",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Empresa Jr do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Next Step é um exemplo de Empresa Júnior, criada pelos próprios alunos do curso de Sistemas de Informação da UFVJM, no campus JK, localizado em Diamantina (MG). "
+              },
+              {
+                "text": "Tem como objetivo a busca em contribuir para o desenvolvimento socioeconômico da comunidade, como também para o desenvolvimento educacional de seus membros e estudantes do curso. "
+              },
+              {
+                "text": "Seus principais serviços e produtos são focados no desenvolvimento de sistemas computacionais, principalmente direcionados à web, de forma a facilitar a gestão e administração empresarial, e gerar vantagens competitivas aos seus clientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#CompanyJr_Curse",
+      "dialog_node": "node_9_1590016231661",
+      "previous_sibling": "node_6_1590015980128"
+    },
+    {
+      "type": "standard",
+      "title": "Atlética do Curso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Bug: Associação Atlética Acadêmica de Sistemas de Informação - UFVJM -Diamantina - MG."
+              },
+              {
+                "text": "O que é uma Atlética?\nAs A.A.A´s (Associação Atlética Acadêmica) são as entidades responsáveis em promover e coordenar a parte esportiva de cada faculdade, organizando treinos e campeonatos externos e internos em diversas modalidades esportivas. Esta entidade também é responsável pela integração e interação dos alunos de cada faculdade através da organização de festas e na confecção e comercialização de produtos do seu curso (canecas, camisetas, etc).    "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Atletic_Curse",
+      "dialog_node": "node_9_1590016493766",
+      "previous_sibling": "node_9_1590016231661"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1590863427138",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@laboratory",
+      "dialog_node": "node_9_1590864303288"
+    },
+    {
+      "type": "standard",
+      "title": "Help About",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Iremos te ajudar!"
+              },
+              {
+                "text": "Vamos te ajudar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Help_About",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1601691418965",
+      "previous_sibling": "node_6_1589866832290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta no 1º andar à esquerda do Hall de Entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratório 32)",
+      "dialog_node": "response_10_1601689634991",
+      "previous_sibling": "response_9_1590864780928"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Terceira porta da esquerda para direita no último corredor do 1º andar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratório 35)",
+      "dialog_node": "response_10_1601689653918",
+      "previous_sibling": "response_5_1601689647385"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Última sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(André Covre)",
+      "dialog_node": "response_10_1601689939241",
+      "previous_sibling": "response_3_1590868327052"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Antepenúltima sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Claudia Beatriz Berti)",
+      "dialog_node": "response_10_1601690015674",
+      "previous_sibling": "response_6_1601690000375"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Bom dia, Sou um Bot desenvolvido com fins de ajudar a você com possíveis dúvidas sobre o curso de Sistemas de Informação da UFVJM."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bem-vindo",
+      "conditions": "now().before('12:00:00')",
+      "dialog_node": "response_1_1589809046963",
+      "previous_sibling": "response_2_1589808951726"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Até mais!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1589810400260",
+      "conditions": "true",
+      "dialog_node": "response_1_1589990203577",
+      "previous_sibling": "response_5_1589990193889"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Terceira sala ao lado direito do segundo corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:(The Bug)",
+      "dialog_node": "response_1_1601689520133",
+      "previous_sibling": "response_6_1601689347941"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Última porta a direita no primeiro corredor subindo a escadas do hall de entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1601689341555",
+      "conditions": "@researchGroup:GesTI",
+      "dialog_node": "response_1_1601689594160"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quarta porta da esquerda para direita no último corredor do 1º andar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratório 36)",
+      "dialog_node": "response_1_1601689659015",
+      "previous_sibling": "response_10_1601689653918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quarta sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Caroline Queiroz Santos)",
+      "dialog_node": "response_1_1601689986277",
+      "previous_sibling": "response_2_1601689958240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Terceira sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Erinaldo Barbosa da Silva)",
+      "dialog_node": "response_1_1601690047635",
+      "previous_sibling": "response_4_1601690036792"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa noite,  Sou um Bot desenvolvido com fins de ajudar a você com possíveis dúvidas sobre o curso de Sistemas de Informação da UFVJM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "now().after('17:59:59')||now().before('06:00:00')",
+      "dialog_node": "response_2_1589808951726"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá $username! Que tal digitar help para sugestões?"
+              },
+              {
+                "text": "Oi!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1589987328691",
+      "conditions": "$username",
+      "dialog_node": "response_2_1589987884329"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá!",
+            "Oi!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_9_1589987328691",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589854687730"
+      },
+      "conditions": "!$username",
+      "dialog_node": "response_2_1589987923252",
+      "previous_sibling": "response_2_1589987884329"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Terceira porta da esquerda para direita no segundo corredor do 1º andar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1601689341555",
+      "conditions": "@researchGroup:LabLIC",
+      "dialog_node": "response_2_1601689341577",
+      "previous_sibling": "response_1_1601689594160"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quinta sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Áthila Rocha Trindade)",
+      "dialog_node": "response_2_1601689958240",
+      "previous_sibling": "response_10_1601689939241"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero que tenha ajudado! Até mais $username!"
+              },
+              {
+                "text": "Até logo $username!"
+              },
+              {
+                "text": "Tchau $username!"
+              },
+              {
+                "text": "Foi um prazer $username! Bye bye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1589810400260",
+      "conditions": "$username",
+      "dialog_node": "response_3_1589990185062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Última sala ao lado direito do último corredor subindo as escadas."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Alessandro Vivas de Andrade)",
+      "dialog_node": "response_3_1590868327052"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta a direita subindo a escadas do hall de entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1601689341555",
+      "conditions": "@researchGroup:LaPIES",
+      "dialog_node": "response_3_1601689341577",
+      "previous_sibling": "response_2_1601689341577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Maria Lúcia Bento Villela)",
+      "dialog_node": "response_3_1601690130692",
+      "previous_sibling": "response_7_1601690122211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Laboratório de Gestão e Tecnologias de Informação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1601691418977",
+      "conditions": "@researchGroup:GesTI",
+      "dialog_node": "response_34_1601691418977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Laboratório de Pesquisa em Linguagens e Inteligência Computacional"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_33_1601691418977",
+      "conditions": "@researchGroup:LabLIC",
+      "dialog_node": "response_35_1601691418977",
+      "previous_sibling": "response_34_1601691418977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Laboratório de Pesquisa em Interação e Engenharia de Software"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1601691418977",
+      "conditions": "@researchGroup:LaPIES",
+      "dialog_node": "response_36_1601691418977",
+      "previous_sibling": "response_35_1601691418977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mineração de Texto, Processamento de Linguagem Natural e Aprendizado de Máquina"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1601691418977",
+      "conditions": "@researchGroup:MTPLNAM",
+      "dialog_node": "response_37_1601691418977",
+      "previous_sibling": "response_36_1601691418977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Otimização e Inteligência Artificial"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_33_1601691418977",
+      "conditions": "@researchGroup:OIA",
+      "dialog_node": "response_38_1601691418977",
+      "previous_sibling": "response_37_1601691418977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Segunda porta a esquerda subindo a escadas do hall de entrada."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1601689341555",
+      "conditions": "@researchGroup:OIA",
+      "dialog_node": "response_4_1601689341577",
+      "previous_sibling": "response_7_1601689588212"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sexta sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Eduardo Pelli)",
+      "dialog_node": "response_4_1601690036792",
+      "previous_sibling": "response_10_1601690015674"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos te ajudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Leonardo Lana de Carvalho)",
+      "dialog_node": "response_4_1601690111534",
+      "previous_sibling": "response_6_1601690072182"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Espero que tenha ajudado!",
+            "Até logo!",
+            "Tchau tchau!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_4_1589810400260",
+      "conditions": "!$username",
+      "dialog_node": "response_5_1589990193889",
+      "previous_sibling": "response_3_1589990185062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira sala ao lado direito do segundo corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:(Next Step)",
+      "dialog_node": "response_5_1601689499243",
+      "previous_sibling": "response_9_1601689512338"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta da esquerda para direita no último corredor do 1º andar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratório 33)",
+      "dialog_node": "response_5_1601689641612",
+      "previous_sibling": "response_10_1601689634991"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segunda porta da esquerda para direita no último corredor do 1º andar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratório 34)",
+      "dialog_node": "response_5_1601689647385",
+      "previous_sibling": "response_5_1601689641612"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Boa tarde,  Sou um Bot desenvolvido com fins de ajudar a você com possíveis dúvidas sobre o curso de Sistemas de Informação da UFVJM. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bem-vindo",
+      "context": {},
+      "conditions": "now().before('18:00:00')",
+      "dialog_node": "response_6_1589809048079",
+      "previous_sibling": "response_1_1589809046963"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Segunda porta da esquerda para direita no segundo corredor do 1º andar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:Técnicos",
+      "dialog_node": "response_6_1601689347941",
+      "previous_sibling": "response_7_1601689347941"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Penúltima sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Cinthya Rocha Tameirão)",
+      "dialog_node": "response_6_1601690000375",
+      "previous_sibling": "response_1_1601689986277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segunda sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Geruza de Fátima Tomé Sabino)",
+      "dialog_node": "response_6_1601690072182",
+      "previous_sibling": "response_7_1601690059633"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira sala do segundo corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:Secretária",
+      "dialog_node": "response_7_1601689347941",
+      "previous_sibling": "response_8_1601689347941"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta a esquerda subindo a escadas do hall de entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1601689341555",
+      "conditions": "@researchGroup:MTPLNAM",
+      "dialog_node": "response_7_1601689588212",
+      "previous_sibling": "response_3_1601689341577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(George Henrique M. Rodolfo)",
+      "dialog_node": "response_7_1601690059633",
+      "previous_sibling": "response_1_1601690047635"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quarta sala ao lado esquerdo do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Marcelo Ferreira Rego)",
+      "dialog_node": "response_7_1601690122211",
+      "previous_sibling": "response_9_1590868235153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, \nSou um Bot desenvolvido com fins de ajudar a você com possíveis dúvidas sobre o curso de Sistemas de Informação da UFVJM."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bem-vindo",
+      "conditions": "true",
+      "dialog_node": "response_8_1589809049173",
+      "previous_sibling": "response_6_1589809048079"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Terceira sala ao lado esquerdo do último corredor subindo as escadas."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Rafael Santin)",
+      "dialog_node": "response_8_1590868339997",
+      "previous_sibling": "response_3_1601690130692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Quarta porta da esquerda para direita no segundo corredor do 1º andar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:(Sala 37)",
+      "dialog_node": "response_8_1601689347941",
+      "previous_sibling": "response_5_1601689499243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta no 1º andar à direita do Hall de entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590864303288",
+      "conditions": "@laboratory:(Laboratorio 31)",
+      "dialog_node": "response_9_1590864780928"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Penúltima sala ao lado direito do último corredor subindo as escadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590868158233",
+      "conditions": "@teacher:(Luciana Pereira de Assis)",
+      "dialog_node": "response_9_1590868235153",
+      "previous_sibling": "response_4_1601690111534"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeira porta da esquerda para direita no segundo corredor do 1º andar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601689347931",
+      "conditions": "@anotherPlace:Auditório",
+      "dialog_node": "response_9_1601689512338"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "FACET",
+  "language": "pt-br",
+  "description": "Skill responsável pelos assuntos relacionados ao curso de Sistemas de Informação da UFVJM."
+}
