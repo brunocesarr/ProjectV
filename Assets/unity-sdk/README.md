@@ -1,29 +1,33 @@
 # IBM Watson SDK for Unity
-[![Build Status](https://travis-ci.org/watson-developer-cloud/unity-sdk.svg?branch=develop)](https://travis-ci.org/watson-developer-cloud/unity-sdk)
+[![Deploy and Publish](https://github.com/watson-developer-cloud/unity-sdk/workflows/Deploy%20and%20Publish/badge.svg?branch=master)](https://github.com/watson-developer-cloud/unity-sdk/actions?query=workflow%3A%22Deploy+and+Publish%22)
 [![wdc-community.slack.com](https://wdc-slack-inviter.mybluemix.net/badge.svg)](http://wdc-slack-inviter.mybluemix.net/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![CLA assistant](https://cla-assistant.io/readme/badge/watson-developer-cloud/unity-sdk)](https://cla-assistant.io/watson-developer-cloud/unity-sdk)
 
+## Deprecated builds
+[![Build Status](https://travis-ci.org/watson-developer-cloud/unity-sdk.svg?branch=develop)](https://travis-ci.org/watson-developer-cloud/unity-sdk)
+
 Use this SDK to build Watson-powered applications in Unity.
 
-<details>
-  <summary>Table of Contents</summary>
+## Announcements
+### Natural Language Classifier deprecation
+On 9 August 2021, IBM announced the deprecation of the Natural Language Classifier service.The service will no longer be available from 8 August 2022. As of 9 September 2021, you will not be able to create new instances. Existing instances will be supported until 8 August 2022. Any instance that still exists on that date will be deleted.
 
-  * [Before you begin](#before-you-begin)
-  * [Getting the Watson SDK and adding it to Unity](#getting-the-watson-sdk-and-adding-it-to-unity)
-    * [Installing the SDK source into your Unity project](#installing-the-sdk-source-into-your-unity-project)
-  * [Discovery v2 only on CP4D](#discovery-v2-only-on-cp4d)
-  * [Configuring your service credentials](#configuring-your-service-credentials)
-  * [Authentication](#authentication)
-  * [Watson Services](#watson-services)
-  * [Authentication Tokens](#authentication-tokens)
-  * [Documentation](#documentation)
-  * [Questions](#questions)
-  * [Open Source @ IBM](#open-source--ibm)
-  * [License](#license)
-  * [Contributing](#contributing)
+As an alternative, we encourage you to consider migrating to the Natural Language Understanding service on IBM Cloud that uses deep learning to extract data and insights from text such as keywords, categories, sentiment, emotion, and syntax, along with advanced multi-label text classification capabilities, to provide even richer insights for your business or industry. For more information, see [Migrating to Natural Language Understanding](https://cloud.ibm.com/docs/natural-language-classifier?topic=natural-language-classifier-migrating).
 
-</details>
+### Updating endpoint URLs from watsonplatform.net
+Watson API endpoint URLs at watsonplatform.net are changing and will not work after 26 May 2021. Update your calls to use the newer endpoint URLs. For more information, see https://cloud.ibm.com/docs/watson?topic=watson-endpoint-change.
+
+### Personality Insights deprecation
+IBM Watson™ Personality Insights is discontinued. For a period of one year from 1 December 2020, you will still be able to use Watson Personality Insights. However, as of 1 December 2021, the offering will no longer be available.
+
+As an alternative, we encourage you to consider migrating to IBM Watson™ [Natural Language Understanding](https://cloud.ibm.com/docs/natural-language-understanding), a service on IBM Cloud® that uses deep learning to extract data and insights from text such as keywords, categories, sentiment, emotion, and syntax to provide insights for your business or industry. For more information, see About Natural Language Understanding.
+
+### Visual Recognition deprecation
+IBM Watson™ Visual Recognition is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+
+### Compare and Comply deprecation
+IBM Watson™ Compare and Comply is discontinued. Existing instances are supported until 30 November 2021, but as of 1 December 2020, you can't create instances. Any instance that exists on 30 November 2021 will be deleted. Consider migrating to Watson Discovery Premium on IBM Cloud for your Compare and Comply use cases. To start the migration process, visit https://ibm.biz/contact-wdc-premium.
 
 ## Before you begin
 Ensure that you have the following prerequisites:
@@ -43,10 +47,6 @@ You can get the latest SDK release by clicking [here][latest_release_sdk]. **You
 
 ### Installing the SDK source into your Unity project
 Move the **`unity-sdk`** and **`unity-sdk-core`** directories into the **`Assets`** directory of your Unity project. _Optional: rename the SDK directory from `unity-sdk` to `Watson` and the Core directory from `unity-sdk-core` to `IBMSdkCore`_.
-
-## Discovery v2 only on CP4D
-
-Discovery v2 is only available on Cloud Pak for Data.
 
 ## Configuring your service credentials
 To create instances of Watson services and their credentials, follow the steps below.
@@ -73,7 +73,7 @@ The credentials for each service contain either a `username`, `password` and end
 **WARNING:** You are responsible for securing your own credentials. Any user with your service credentials can access your service instances!
 
 ## Watson Services
-To get started with the Watson Services in Unity, click on each service below to read through each of their `README.md`'s and their codes.
+To get started with a Watson Service in Unity, follow the link to see the code.
 * [Assistant V1](/Scripts/Services/Assistant/V1)
 * [Assistant V2](/Scripts/Services/Assistant/V2)
 * [Compare Comply V1](/Scripts/Services/CompareComply/V1)
@@ -402,7 +402,7 @@ private void OnMessage(DetailedResponse<MessageResponse> response, IBMError erro
 ```
 
 ## Transaction IDs
-Every SDK call returns a response with a transaction ID in the x-global-transaction-id header. This transaction ID is useful for troubleshooting and accessing relevant logs from your service instance.
+Every SDK call returns a response with a transaction ID in the `X-Global-Transaction-Id` header. Together the service instance region, this ID helps support teams troubleshoot issues from relevant logs.
 
 ```cs
 public void ExampleGetTransactionId()
@@ -413,11 +413,34 @@ public void ExampleGetTransactionId()
         {
             if(error != null)
             {
-                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", error.ResponseHeaders["x-global-transaction-id"]);
+                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", error.ResponseHeaders["X-Global-Transaction-Id"]);
             }
             else
             {
-                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", response.Headers["x-global-transaction-id"]);
+                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", response.Headers["X-Global-Transaction-Id"]);
+            }
+        }
+    );
+}
+```
+
+However, the transaction ID isn't available when the API doesn't return a response for some reason. In that case, you can set your own transaction ID in the request. For example, replace `<my-unique-transaction-id>` in the following example with a unique transaction ID.
+
+```cs
+public void ExampleSetTransactionId()
+{
+    AssistantService service = new AssistantService("{version-date}");
+    service.WithHeader("X-Global-Transaction-Id", "<my-unique-transaction-id>");
+    service.ListWorkspaces(
+        callback: (DetailedResponse<Workspace> response, IBMError error) =>
+        {
+            if(error != null)
+            {
+                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", error.ResponseHeaders["X-Global-Transaction-Id"]);
+            }
+            else
+            {
+                Log.Debug("AssistantServiceV1", "Transaction Id: {0}", response.Headers["X-Global-Transaction-Id"]);
             }
         }
     );

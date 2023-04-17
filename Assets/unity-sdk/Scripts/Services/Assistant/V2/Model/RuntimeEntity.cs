@@ -1,5 +1,5 @@
 /**
-* (C) Copyright IBM Corp. 2018, 2020.
+* (C) Copyright IBM Corp. 2018, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -46,11 +46,6 @@ namespace IBM.Watson.Assistant.V2.Model
         /// </summary>
         [JsonProperty("confidence", NullValueHandling = NullValueHandling.Ignore)]
         public float? Confidence { get; set; }
-        /// <summary>
-        /// Any metadata for the entity.
-        /// </summary>
-        [JsonProperty("metadata", NullValueHandling = NullValueHandling.Ignore)]
-        public Dictionary<string, object> Metadata { get; set; }
         /// <summary>
         /// The recognized capture groups for the entity, as defined by the entity pattern.
         /// </summary>

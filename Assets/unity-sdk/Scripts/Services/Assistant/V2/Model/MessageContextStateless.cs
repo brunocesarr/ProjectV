@@ -1,5 +1,5 @@
 /**
-* (C) Copyright IBM Corp. 2018, 2020.
+* (C) Copyright IBM Corp. 2020, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -15,6 +15,7 @@
 *
 */
 
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace IBM.Watson.Assistant.V2.Model
@@ -25,7 +26,7 @@ namespace IBM.Watson.Assistant.V2.Model
     public class MessageContextStateless
     {
         /// <summary>
-        /// Session context data that is shared by all skills used by the Assistant.
+        /// Session context data that is shared by all skills used by the assistant.
         /// </summary>
         [JsonProperty("global", NullValueHandling = NullValueHandling.Ignore)]
         public MessageContextGlobalStateless Global { get; set; }
@@ -36,6 +37,12 @@ namespace IBM.Watson.Assistant.V2.Model
         /// dialog skill used by the assistant.
         /// </summary>
         [JsonProperty("skills", NullValueHandling = NullValueHandling.Ignore)]
-        public MessageContextSkills Skills { get; set; }
+        public Dictionary<string, MessageContextSkill> Skills { get; set; }
+        /// <summary>
+        /// An object containing context data that is specific to particular integrations. For more information, see the
+        /// [documentation](https://cloud.ibm.com/docs/assistant?topic=assistant-dialog-integrations).
+        /// </summary>
+        [JsonProperty("integrations", NullValueHandling = NullValueHandling.Ignore)]
+        public object Integrations { get; set; }
     }
 }

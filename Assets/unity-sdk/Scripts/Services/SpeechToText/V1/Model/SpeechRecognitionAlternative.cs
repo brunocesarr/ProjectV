@@ -1,5 +1,5 @@
 /**
-* (C) Copyright IBM Corp. 2018, 2020.
+* (C) Copyright IBM Corp. 2019, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -31,8 +31,8 @@ namespace IBM.Watson.SpeechToText.V1.Model
         [JsonProperty("transcript", NullValueHandling = NullValueHandling.Ignore)]
         public string Transcript { get; set; }
         /// <summary>
-        /// A score that indicates the service's confidence in the transcript in the range of 0.0 to 1.0. A confidence
-        /// score is returned only for the best alternative and only with results marked as final.
+        /// A score that indicates the service's confidence in the transcript in the range of 0.0 to 1.0. The service
+        /// returns a confidence score only for the best alternative and only with results marked as final.
         /// </summary>
         [JsonProperty("confidence", NullValueHandling = NullValueHandling.Ignore)]
         public double? Confidence { get; set; }
@@ -46,7 +46,7 @@ namespace IBM.Watson.SpeechToText.V1.Model
         /// <summary>
         /// A confidence score for each word of the transcript as a list of lists. Each inner list consists of two
         /// elements: the word and its confidence score in the range of 0.0 to 1.0, for example:
-        /// `[["hello",0.95],["world",0.866]]`. Confidence scores are returned only for the best alternative and only
+        /// `[["hello",0.95],["world",0.86]]`. Confidence scores are returned only for the best alternative and only
         /// with results marked as final.
         /// </summary>
         [JsonProperty("word_confidence", NullValueHandling = NullValueHandling.Ignore)]

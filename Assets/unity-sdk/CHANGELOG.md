@@ -1,3 +1,125 @@
+# [6.0.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.2.0...v6.0.0) (2022-03-21)
+
+
+### Features
+
+* **assistant-v1:** generated using api-def: master & generator: 3.46.0 ([3cb486e](https://github.com/watson-developer-cloud/unity-sdk/commit/3cb486ec41f59e6a53b6d0f6824db00b19d2d51f))
+* **assistant-v2:** generated using api-def: master & generator: 3.46.0 ([03c3646](https://github.com/watson-developer-cloud/unity-sdk/commit/03c3646b85b9eac8da2ec44c0bead345fd71a2cf))
+* **discovery-v1:** document status & query aggregation update ([97a432e](https://github.com/watson-developer-cloud/unity-sdk/commit/97a432ea49f9e87a288df92a1e3d0bb662c63510))
+* **natural-language-understanding-v1:** metadata as a dictionary and comments updated ([34fd074](https://github.com/watson-developer-cloud/unity-sdk/commit/34fd074fea605cb264a3e777237d283b6b3e318e))
+* **speech-to-text-v1:** supportedFeatures: customAcousticModel property added & update comments ([c11e928](https://github.com/watson-developer-cloud/unity-sdk/commit/c11e92849861dd35b3fec2c2fb012019913aec2d))
+
+
+### BREAKING CHANGES
+
+* **discovery-v1:** QueryAggregation: BREAKING QueryAggregation subclasses changed.
+* **assistant-v2:** MessageOutputDebug: BREAKING nodesVisited type DialogNodesVisited changed to
+DialogNodeVisited, RuntimeEntity: BREAKING optional metadata property removed
+* **assistant-v1:** OutputData: BREAKING required text property removed, RuntimeEntity: BREAKING
+optional metadata property removed
+
+# [5.2.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.1.2...v5.2.0) (2021-09-14)
+
+
+### Bug Fixes
+
+* **assistant-v2:** add new property, answers for assistant v2 ([c1ac34a](https://github.com/watson-developer-cloud/unity-sdk/commit/c1ac34a3ae94ee726663c573a254a16515a2daa4))
+* **assistant-v2:** fix integration test for assistant v2 ([2ed2368](https://github.com/watson-developer-cloud/unity-sdk/commit/2ed236864640b4a8c547ff4d3e896cc4be875100))
+* **discovery-v1:** fix status details property. Change from authentication to authenticated ([7975bd1](https://github.com/watson-developer-cloud/unity-sdk/commit/7975bd12c6480362669a3c48811ca676551c8895))
+* **discovery-v1:** json type from Type to type ([0a3ed73](https://github.com/watson-developer-cloud/unity-sdk/commit/0a3ed73edeba57c97c46fc5a5008d6c98f0b605e))
+* **discovery-v1:** update status from string to StatusDetails ([2ee9531](https://github.com/watson-developer-cloud/unity-sdk/commit/2ee9531814e423d34096d6ffdd351377b11bfb5b))
+* **integration-test:** update integration test change for the NLU ([1163183](https://github.com/watson-developer-cloud/unity-sdk/commit/1163183dca11a6e40f47cd50e014b6ff5cfeb019))
+* **integration-testing:** fix intergration testing add deleteSessionRespondse ([076790a](https://github.com/watson-developer-cloud/unity-sdk/commit/076790a5e6d08fceecc6122fa3cb61a99352099b))
+* **nlu:** fix for listClassificationsModels through return type change and removal of unnecessary ([bda5e68](https://github.com/watson-developer-cloud/unity-sdk/commit/bda5e68288b93528fcc5a11409689c5705e4a937))
+* **services:** update comments and formatting changes ([d8c041d](https://github.com/watson-developer-cloud/unity-sdk/commit/d8c041d53cc7ed2542cd16aeb86b89587fe7ad44))
+
+
+### Features
+
+* **assistant-v1:** add enums for disambiguation ([521f9cb](https://github.com/watson-developer-cloud/unity-sdk/commit/521f9cb111cc8ed3b4a10625e4fc3b12085a049e))
+* **assistant-v1:** alt_text property added to Image response type ([1743425](https://github.com/watson-developer-cloud/unity-sdk/commit/17434256dd15348df422b3d09215c8de196bed2b))
+* **assistant-v2:** alt_text property added to Image response type ([cfb1ab8](https://github.com/watson-developer-cloud/unity-sdk/commit/cfb1ab81626f2cfd9ea2c81674005f3147b740a9))
+* **assistant-v2:** session_start_time and state properties added to MessageContextGlobalSystem ([4bb90ac](https://github.com/watson-developer-cloud/unity-sdk/commit/4bb90acb6383b30897fd502e61850ace31a0b358))
+* **discovery-v2:** enum update for CreateProjectConstants ([0b47643](https://github.com/watson-developer-cloud/unity-sdk/commit/0b4764350dcfae60075c36dfb000ef6ba1f60a11))
+
+## [5.1.2](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.1.1...v5.1.2) (2021-08-24)
+
+
+### Bug Fixes
+
+* **nlc:** add deprecation warning ([b8f3355](https://github.com/watson-developer-cloud/unity-sdk/commit/b8f3355ebd20dd2ae822a207dfb63188e77e9b42)), closes [#9627](https://github.com/watson-developer-cloud/unity-sdk/issues/9627)
+
+## [5.1.1](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.1.0...v5.1.1) (2021-06-16)
+
+
+### Bug Fixes
+
+* **discovery-v1:** add DateTime format ([f83b6ad](https://github.com/watson-developer-cloud/unity-sdk/commit/f83b6ad710510c6b07d3ef83522dfd094c390d9d))
+* **discovery-v2:** add enrichment to the form-data ([acfd7b5](https://github.com/watson-developer-cloud/unity-sdk/commit/acfd7b5e4307af3d600f3e928e0f1a18905bab97))
+* **visual-recognition-v4:** add DateTime format ([3ea83df](https://github.com/watson-developer-cloud/unity-sdk/commit/3ea83dfde0419a2a088f5f0048bf31b6bd6a6374))
+
+# [5.1.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.0.2...v5.1.0) (2021-06-10)
+
+
+### Features
+
+* **generation:** generated using api def sdk-2021-05-11-rerelease and gen 3.31.0 ([44079dd](https://github.com/watson-developer-cloud/unity-sdk/commit/44079dd184f4bd0c5f24dc5dccba98eb655078c1))
+
+## [5.0.2](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.0.1...v5.0.2) (2021-03-05)
+
+
+### Bug Fixes
+
+* deprecate compare and comply message ([f05490d](https://github.com/watson-developer-cloud/unity-sdk/commit/f05490db5d4e5d171e71eee66cb2ea927279654d))
+* test semantic release ([489fa33](https://github.com/watson-developer-cloud/unity-sdk/commit/489fa337f7f8a3b4377b78252582b2bd63a1c13f))
+
+## [5.0.1](https://github.com/watson-developer-cloud/unity-sdk/compare/v5.0.0...v5.0.1) (2020-12-21)
+
+
+### Bug Fixes
+
+* **Assistant:** node dialog respose should have agent props ([e0ead99](https://github.com/watson-developer-cloud/unity-sdk/commit/e0ead9909b7144d074e1dddc57176ad7309a676a))
+
+# [5.0.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v4.8.0...v5.0.0) (2020-12-10)
+
+
+### Features
+
+* **AssistantV1:** Add support for BulkClassify ([20e42e3](https://github.com/watson-developer-cloud/unity-sdk/commit/20e42e3c26d16ed3257874e3244c5ccf4d83a0b0))
+* **AssistantV2:** Add support for BulkClassify and refactor context skill system ([52f0cf9](https://github.com/watson-developer-cloud/unity-sdk/commit/52f0cf940865fc28cbe14833c69bed8293149a1a))
+* **CompareComply:** add support for Modification in TypeLabel ([bd6d619](https://github.com/watson-developer-cloud/unity-sdk/commit/bd6d619e73f9e50873767457406b782d694b7098))
+* **DiscoveryV2:** Add support for AnalyzeDocuments ([fa97def](https://github.com/watson-developer-cloud/unity-sdk/commit/fa97def7cf4bac9468050a7c9b6db064647fedd0))
+* regenrate services using current API def ([30eb7de](https://github.com/watson-developer-cloud/unity-sdk/commit/30eb7debb1d46fec979a603810459c324087b53b))
+* **regeneration:** regenerated with generator 3.21.0 and api def sdk-major-release-2020 ([5de83ec](https://github.com/watson-developer-cloud/unity-sdk/commit/5de83ec432d1878d3f9edb98f47689a79f49a3bb))
+* **TextToSpeechV1:** add support for CustomModel and CustomModels ([235aef2](https://github.com/watson-developer-cloud/unity-sdk/commit/235aef25527060e89c40d4e4fa93c1aaa0660796))
+* **VisualRecognition:** Add deprecation warning and change starte and endtimes to DateTime ([d99b69a](https://github.com/watson-developer-cloud/unity-sdk/commit/d99b69add5d6d42ed733ccde176615f79e788491))
+
+
+### BREAKING CHANGES
+
+* **VisualRecognition:** change startTime and encTime to DateTime for GetTrainingUsave for
+VisualRecognitionV4
+* **TextToSpeechV1:** Moved from VoiceModel and VoiceModels to CustomModel and CustomModels
+* **AssistantV2:** MessageContextSkill
+
+# [4.8.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v4.7.1...v4.8.0) (2020-08-25)
+
+
+### Features
+
+* **AssistantV1:** change default URL ([21283bc](https://github.com/watson-developer-cloud/unity-sdk/commit/21283bc78c3ff14432f4cf7a409f3b7bc8f6c125))
+* **AssistantV2:** add support for ListLogs and DeleteUserData ([369e7fd](https://github.com/watson-developer-cloud/unity-sdk/commit/369e7fd7414f1d4d825bc2e60b5c7d72af8d7dab))
+* regenerate services and add new default URLs ([e484113](https://github.com/watson-developer-cloud/unity-sdk/commit/e484113de45dccd7623f1616dc3b04eaa4b6d292))
+* **DiscoveryV2:** add new apis for projects, enrichments and collections ([abc28ba](https://github.com/watson-developer-cloud/unity-sdk/commit/abc28bad54e43397d4ae08d04c45c5ccc2bebb64))
+* **LanguageTranslatorV3:** add support for ListLanguages ([0570cdb](https://github.com/watson-developer-cloud/unity-sdk/commit/0570cdba89631679d8a3412120c1881138b9b3fd))
+
+## [4.7.1](https://github.com/watson-developer-cloud/unity-sdk/compare/v4.7.0...v4.7.1) (2020-06-17)
+
+
+### Bug Fixes
+
+* **TTS:** update TTS example to play music and using normal synthesize ([9006680](https://github.com/watson-developer-cloud/unity-sdk/commit/90066801dca6200e7dcc802c421ce2e94e50f26e))
+
 # [4.7.0](https://github.com/watson-developer-cloud/unity-sdk/compare/v4.6.1...v4.7.0) (2020-06-03)
 
 

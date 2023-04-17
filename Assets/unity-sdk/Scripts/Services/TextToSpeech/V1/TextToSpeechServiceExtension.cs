@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
-using Utility = IBM.Cloud.SDK.Utilities.UtilityWatson;
+using UtilityWatson = IBM.Cloud.SDK.Utilities.UtilityWatson;
 
 namespace IBM.Watson.TextToSpeech.V1
 {
@@ -54,7 +54,7 @@ namespace IBM.Watson.TextToSpeech.V1
         private string customization_id = null;
         private string[] timings = null;
 
-        private string url = "https://stream.watsonplatform.net/text-to-speech/api";
+        private string url = "https://api.us-south.text-to-speech.watson.cloud.ibm.com";
         #endregion
 
         #region Public Properties

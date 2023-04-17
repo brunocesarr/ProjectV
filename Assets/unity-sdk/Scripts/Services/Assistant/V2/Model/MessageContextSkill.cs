@@ -1,5 +1,5 @@
 /**
-* (C) Copyright IBM Corp. 2018, 2020.
+* (C) Copyright IBM Corp. 2019, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ using Newtonsoft.Json;
 namespace IBM.Watson.Assistant.V2.Model
 {
     /// <summary>
-    /// Contains information specific to a particular skill used by the Assistant. The property name must be the same as
+    /// Contains information specific to a particular skill used by the assistant. The property name must be the same as
     /// the name of the skill (for example, `main skill`).
     /// </summary>
     public class MessageContextSkill
@@ -35,6 +35,6 @@ namespace IBM.Watson.Assistant.V2.Model
         /// System context data used by the skill.
         /// </summary>
         [JsonProperty("system", NullValueHandling = NullValueHandling.Ignore)]
-        public Dictionary<string, object> System { get; set; }
+        public MessageContextSkillSystem System { get; set; }
     }
 }

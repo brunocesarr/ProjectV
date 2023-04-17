@@ -1,5 +1,5 @@
 /**
-* (C) Copyright IBM Corp. 2018, 2020.
+* (C) Copyright IBM Corp. 2018, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -26,7 +26,12 @@ namespace IBM.Watson.Assistant.V2.Model
     public class MessageInput
     {
         /// <summary>
-        /// The type of user input. Currently, only text input is supported.
+        /// The type of the message:
+        ///
+        /// - `text`: The user input is processed normally by the assistant.
+        /// - `search`: Only search results are returned. (Any dialog or actions skill is bypassed.)
+        ///
+        /// **Note:** A `search` message results in an error if no search skill is configured for the assistant.
         /// </summary>
         public class MessageTypeValue
         {
@@ -34,11 +39,20 @@ namespace IBM.Watson.Assistant.V2.Model
             /// Constant TEXT for text
             /// </summary>
             public const string TEXT = "text";
+            /// <summary>
+            /// Constant SEARCH for search
+            /// </summary>
+            public const string SEARCH = "search";
             
         }
 
         /// <summary>
-        /// The type of user input. Currently, only text input is supported.
+        /// The type of the message:
+        ///
+        /// - `text`: The user input is processed normally by the assistant.
+        /// - `search`: Only search results are returned. (Any dialog or actions skill is bypassed.)
+        ///
+        /// **Note:** A `search` message results in an error if no search skill is configured for the assistant.
         /// Constants for possible values can be found using MessageInput.MessageTypeValue
         /// </summary>
         [JsonProperty("message_type", NullValueHandling = NullValueHandling.Ignore)]
@@ -65,6 +79,14 @@ namespace IBM.Watson.Assistant.V2.Model
         /// </summary>
         [JsonProperty("suggestion_id", NullValueHandling = NullValueHandling.Ignore)]
         public string SuggestionId { get; set; }
+        /// <summary>
+        /// An array of multimedia attachments to be sent with the message.
+        ///
+        /// **Note:** Attachments are not processed by the assistant itself, but can be sent to external services by
+        /// webhooks.
+        /// </summary>
+        [JsonProperty("attachments", NullValueHandling = NullValueHandling.Ignore)]
+        public List<MessageInputAttachment> Attachments { get; set; }
         /// <summary>
         /// Optional properties that control how the assistant responds.
         /// </summary>

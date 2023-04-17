@@ -1,3 +1,34 @@
+## [1.2.4](https://github.com/IBM/unity-sdk-core/compare/v1.2.3...v1.2.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* **rest-connector:** allow sending formdata on put request ([c9a0932](https://github.com/IBM/unity-sdk-core/commit/c9a09321bbe17bafe7b9c83037338f117efa0516))
+
+## [1.2.3](https://github.com/IBM/unity-sdk-core/compare/v1.2.2...v1.2.3) (2021-05-12)
+
+
+### Bug Fixes
+
+* remove package-lock.json ([#42](https://github.com/IBM/unity-sdk-core/issues/42)) ([ea1230f](https://github.com/IBM/unity-sdk-core/commit/ea1230fef03532ee012d30115a6f77ed9077fef2))
+
+## [1.2.2](https://github.com/IBM/unity-sdk-core/compare/v1.2.1...v1.2.2) (2021-02-12)
+
+
+### Bug Fixes
+
+* **build:** main migration ([5daafd1](https://github.com/IBM/unity-sdk-core/commit/5daafd11c18abb40149ed2a3ba40d784aed6891f))
+* **build:** main migration automation ([e2ef3d8](https://github.com/IBM/unity-sdk-core/commit/e2ef3d8df786805dfd090b2048551edd928a3aa2))
+* **build:** main migration automation ([82e29a1](https://github.com/IBM/unity-sdk-core/commit/82e29a10c9b2ebcce1e240835780412a0d823cb1))
+
+## [1.2.1](https://github.com/IBM/unity-sdk-core/compare/v1.2.0...v1.2.1) (2020-06-16)
+
+
+### Bug Fixes
+
+* allow '=' character in environment config values ([89db5eb](https://github.com/IBM/unity-sdk-core/commit/89db5eb00b51467fd80a4bc72d50576bf222307c))
+* assign an empty dictionary to RESTConnector's resp.headers if null ([81c3ebe](https://github.com/IBM/unity-sdk-core/commit/81c3ebe7460c62161214001e44309796f94ee7d4))
+
 # [1.2.0](https://github.com/IBM/unity-sdk-core/compare/v1.1.1...v1.2.0) (2019-12-11)
 
 

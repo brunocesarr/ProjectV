@@ -1,5 +1,5 @@
 /**
-* Copyright 2018, 2019 IBM Corp. All Rights Reserved.
+* (C) Copyright IBM Corp. 2019, 2022.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -80,8 +80,9 @@ namespace IBM.Watson.SpeechToText.V1.Model
         [JsonProperty("status", NullValueHandling = NullValueHandling.Ignore)]
         public string Status { get; set; }
         /// <summary>
-        /// The customization ID (GUID) of the custom language model. The **Create a custom language model** method
-        /// returns only this field of the object; it does not return the other fields.
+        /// The customization ID (GUID) of the custom language model. The [Create a custom language
+        /// model](#createlanguagemodel) method returns only this field of the object; it does not return the other
+        /// fields.
         /// </summary>
         [JsonProperty("customization_id", NullValueHandling = NullValueHandling.Ignore)]
         public string CustomizationId { get; set; }
@@ -99,14 +100,18 @@ namespace IBM.Watson.SpeechToText.V1.Model
         [JsonProperty("updated", NullValueHandling = NullValueHandling.Ignore)]
         public string Updated { get; set; }
         /// <summary>
-        /// The language identifier of the custom language model (for example, `en-US`).
+        /// The language identifier of the custom language model (for example, `en-US`). The value matches the
+        /// five-character language identifier from the name of the base model for the custom model. This value might be
+        /// different from the value of the `dialect` field.
         /// </summary>
         [JsonProperty("language", NullValueHandling = NullValueHandling.Ignore)]
         public string Language { get; set; }
         /// <summary>
-        /// The dialect of the language for the custom language model. For non-Spanish models, the field matches the
-        /// language of the base model; for example, `en-US` for either of the US English language models. For Spanish
-        /// models, the field indicates the dialect for which the model was created:
+        /// The dialect of the language for the custom language model. _For custom models that are based on non-Spanish
+        /// previous-generation models and on next-generation models,_ the field matches the language of the base model;
+        /// for example, `en-US` for one of the US English models. _For custom models that are based on Spanish
+        /// previous-generation models,_ the field indicates the dialect with which the model was created. The value can
+        /// match the name of the base model or, if it was specified by the user, can be one of the following:
         /// * `es-ES` for Castilian Spanish (`es-ES` models)
         /// * `es-LA` for Latin American Spanish (`es-AR`, `es-CL`, `es-CO`, and `es-PE` models)
         /// * `es-US` for Mexican (North American) Spanish (`es-MX` models)
@@ -118,7 +123,7 @@ namespace IBM.Watson.SpeechToText.V1.Model
         /// <summary>
         /// A list of the available versions of the custom language model. Each element of the array indicates a version
         /// of the base model with which the custom model can be used. Multiple versions exist only if the custom model
-        /// has been upgraded; otherwise, only a single version is shown.
+        /// has been upgraded to a new version of its base model. Otherwise, only a single version is shown.
         /// </summary>
         [JsonProperty("versions", NullValueHandling = NullValueHandling.Ignore)]
         public List<string> Versions { get; set; }
